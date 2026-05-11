@@ -2,6 +2,7 @@
 
 provider "azurerm" {
   features {}
+  # subscription_id is provided by the consumer via ARM_SUBSCRIPTION_ID env var
 }
 
 data "azurerm_client_config" "current" {}
