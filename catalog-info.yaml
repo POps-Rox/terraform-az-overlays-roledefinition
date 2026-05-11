@@ -1,10 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tf-az-overlays-roledefinition
+  name: terraform-az-overlays-roledefinition
   description: Terraform overlay module for Azure custom role definitions
   annotations:
-    github.com/project-slug: POps-Rox/tf-az-overlays-roledefinition
+    github.com/project-slug: POps-Rox/terraform-az-overlays-roledefinition
     backstage.io/techdocs-ref: dir:.
   tags:
     - terraform
@@ -12,7 +12,7 @@ metadata:
     - azure
     - platform-ops
   links:
-    - url: https://github.com/POps-Rox/tf-az-overlays-roledefinition
+    - url: https://github.com/POps-Rox/terraform-az-overlays-roledefinition
       title: GitHub Repository
       icon: github
 spec:
